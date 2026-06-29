@@ -43,7 +43,7 @@ li {
 }
 
 .nav__link--primary {
-    border: 2px solid #afe8ed;
+    border: 2px solid rgb(187, 225, 187);
     border-radius: 10px;
 }
 
@@ -53,4 +53,12 @@ li {
 
 .nav__link--primary:hover {
     text-decoration: none;
+}
+
+#landing {
+    background-color: rgb(227, 247, 239);
+}
+
+header {
+    height: calc(100vh - 80px);
 }
