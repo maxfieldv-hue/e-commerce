@@ -78,7 +78,7 @@ li {
 }
 
 header {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
 }
 
 .header__container {
@@ -130,11 +130,6 @@ button {
 
 button:active {
     transform: translateY(1px);
-}
-
-
-.header__img {
-    position: absolute;
 }
 
 .container {
